@@ -1,0 +1,354 @@
+/* CSS Reset  */
+* {
+    margin: 0;
+    /* padding: 12px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: azure;
+}
+
+/* Logo Left  */
+.left {
+    display: block;
+    margin-left: 630px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding: 12px;
+}
+
+.left img {
+    width: 150px;
+}
+
+
+/* Mid  */
+.mid {
+    display: block;
+    margin: auto;
+    width: 50%;
+    color: rgb(202, 18, 18);
+    padding-top: 0%;
+}
+
+.mid strong {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-style: oblique;
+}
+
+.mid div {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -13px;
+    font-style: italic;
+    padding: 12px;
+}
+
+/* Navigation Bar  */
+.nav {
+    background-color: rgb(25, 20, 92);
+    display: flex;
+    width: 120%;
+    border-radius: 2px;
+    padding: 22px;
+    margin: auto;
+}
+
+.navbar {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 12px;
+}
+
+.navbar li a {
+    color: azure;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    background-color: rgb(202, 18, 18);
+    border-radius: 25px;
+}
+
+.contact {
+    padding: 12px;
+    margin-left: 350px;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: rgb(202, 18, 18);
+}
+
+/* Submenu 1  */
+.submenu {
+    display: none;
+}
+
+.navbar li:hover .submenu {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: rgb(25, 20, 92);
+}
+
+.navbar li:hover .submenu ul li {
+    display: block;
+    margin: 10px;
+    width: 190px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.navbar li:hover .submenu ul li:last-child {
+    border-bottom: none;
+}
+
+.navbar li:hover .submenu ul li:hover {
+    color: #a62320;
+}
+
+
+
+/* Background Image  */
+.content {
+    background-image: url('/CDGI\ background.jpeg');
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 91%;
+    margin: auto;
+    display: block;
+}
+
+/* IT dept  */
+.itdept {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(25, 20, 92);
+    display: block;
+    width: 91%;
+    margin: auto;
+    padding: 12px;
+}
+
+.itdept strong {
+    color: #a62320;
+    padding: 12px;
+}
+
+/* Menu Bar  */
+.menu {
+    background-image: url('/IT\ background.jpg');
+    background-repeat: no-repeat;
+    width: 91%;
+    margin: auto;
+    display: block;
+    padding: 12px;
+}
+
+.menu ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 12px;
+}
+
+#b {
+    border-bottom: 2px solid rgb(65, 63, 63);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    padding: 12px;
+}
+
+.menu ul li a:hover {
+    color: #a62320;
+    padding: 12px;
+}
+
+.Attributes {
+    background-color: rgb(43, 41, 41);
+    display: block;
+    margin: auto;
+    width: 35%;
+    border-radius: 25px;
+    border: 2px solid black;
+    opacity: 0.8;
+    padding: 12px;
+}
+
+/* Footer Bar  */
+
+
+/* Footer Logos  */
+
+
+.footer {
+    border-top: 8px solid rgb(202, 18, 18);
+    background-color: rgb(36, 34, 34);
+    height: 450px;
+    width: 100%;
+    padding: 12px;
+}
+
+.dlogo img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    left: 150px;
+    padding: 12px;
+}
+
+.written {
+    display: block;
+    width: 23%;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: rgb(176, 176, 176);
+    padding: 12px;
+}
+
+
+
+
+/* Left part  */
+.flexlogo {
+    display: flex;
+    padding: 0px;
+    margin-left: 100px;
+    padding: 12px;
+}
+
+.flexlogo div img {
+    height: 30px;
+    width: 30px;
+    padding: 12px;
+}
+
+.flexlogo div {
+    padding: 0px;
+}
+
+.aws {
+    margin-left: 118px;
+    padding: 12px;
+}
+
+.aws img {
+    height: 50px;
+    width: 150px;
+}
+
+/* Mid part  */
+.quicklinks {
+    display: block;
+    width: 40%;
+    margin-left: 450px;
+    padding: 12px;
+}
+
+.quicklinks div {
+    font-size: 25px;
+    margin-top: -350px;
+    border-bottom: 2px solid #a62320;
+    width: 25%;
+    padding: 12px;
+}
+
+.quicklinks ul li {
+    list-style: circle;
+    padding: 12px;
+}
+
+.quicklinks ul li a {
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+    padding: 12px;
+}
+
+.quicklinks ul li a:hover {
+    color: #a62320;
+}
+
+.linksright {
+    margin-top: -180px;
+    margin-left: 40%;
+    display: block;
+    padding: 12px;
+}
+
+
+/* Left Part  */
+.getintouch {
+    display: block;
+    width: 25%;
+    margin-left: 70%;
+    margin-top: -370px;
+    padding: 12px;
+}
+
+.getintouch div {
+    font-size: 25px;
+    border-bottom: 2px solid #a62320;
+    width: 40%;
+    padding: 12px;
+}
+
+.getintouch ul li{
+    padding: 12px;
+}
+
+.contactdown {
+    list-style: circle;
+}
+
+.contactdown #para {
+    color: rgb(176, 176, 176);
+    padding: 12px;
+}
+
+.contactdown li a {
+    color: #a62320;
+    text-decoration: none;
+}
+
+.contactdown li a:hover {
+    color: blue;
+}
+
+
+/* bottom part  */
+
+.bottomdown {
+    background-color: black;
+    font-size: 10px;
+    color: rgb(176, 176, 176);
+    text-align: center;
+    margin-top: -4%;
+    padding: 12px;
+}

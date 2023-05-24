@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <style>
+       *{
+    margin: 0;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    color: azure;  
+    
+}
+
+/* Logo Left  */
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 115px;
+}
+.left img{
+    width: 100px;
+}
+
+/* Logo Right  */
+.right{
+    position: absolute;
+    right: 115px;
+    top: 60px;
+    display: inline-block;
+}
+.right img{
+    width: 100px;
+}
+
+/* Mid  */
+.mid{
+    display: block;
+    margin: auto;
+    width: 50%;
+    color: rgb(202, 18, 18);
+}
+
+.mid strong
+{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-style: oblique;
+    
+}
+
+.mid div
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -13px;
+    font-style: italic;
+}
+/* TOP BAR  */
+.topbar{
+    
+    background-color: rgb(25, 20, 92);
+}
+.email a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* Navigation Bar  */
+.nav{
+    background-color: rgb(25, 20, 92);
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 2px;
+}
+.navbar{
+    display: inline-block;
+    margin-left: 144px;
+}
+.navbar li{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+.navbar li a{
+    color: azure;
+    text-decoration: none;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    background-color: rgb(202, 18, 18);
+    border-radius: 25px;
+}
+
+/* Submenu 1  */
+.submenu{
+    display: none;
+}
+
+.navbar li:hover .submenu{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: rgb(25, 20, 92);
+}
+
+.navbar li:hover .submenu ul li{
+    display: block;
+    margin: 10px;
+    width: 190px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.navbar li:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+
+.navbar li:hover .submenu ul li:hover{
+    color: #a62320;
+}
+
+
+/* Background image  */
+.content{
+    background-image: url('/CDGI\ bkg.jpg') ;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 91%;
+    margin: auto;
+    display: block;
+}
+/* IT dept  */
+.itdept{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(25, 20, 92);
+    display: block;
+    width: 91%;
+    margin: auto;
+    border-bottom: 5px solid rgb(202, 18, 18);;
+}
+.itdept strong{
+    color: #a62320;
+}
+
+
+/* Overview */
+
+.overview{
+    color: rgb(45, 44, 44);
+    display: block;
+    margin: auto;
+    width: 91%;
+    font-size: 18px;
+    background-color: azure;
+}
+
+.overview h3{
+    border-bottom: 3px solid #a62320;
+    font-size: 22px;
+    display: block;
+    width: 8%;
+}
+/* Footer Bar  */
+
+
+/* Footer Logos  */
+
+
+.footer
+{
+    border-top: 8px solid rgb(202, 18, 18);
+    background-color: rgb(36, 34, 34);
+    height: 450px;
+}
+.dlogo img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    left: 150px;
+}
+.written 
+{
+    display: block;
+    width: 23%;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: rgb(176, 176, 176);
+}
+
+
+
+
+/* Left part  */
+.flexlogo
+{
+    display: flex;
+    padding: 0px;
+    margin-left: 100px;
+}
+.flexlogo div img
+{
+   height: 30px;
+   width: 30px;
+}
+.flexlogo div{
+    padding: 0px;
+}
+.aws{
+    margin-left: 118px;
+}
+.aws img{
+    height: 50px;
+    width: 150px;
+}
+
+/* Mid part  */
+.quicklinks{
+    display: block;
+    width: 40%;
+    margin-left: 450px;
+}
+    
+.quicklinks div{
+    font-size: 25px;
+    margin-top: -385px;
+    border-bottom: 2px solid #a62320;
+    width: 25%;
+}
+.quicklinks ul li{
+    list-style: circle;
+}
+.quicklinks ul li a{
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+    
+}
+
+.quicklinks ul li a:hover{
+   color: #a62320;
+}
+
+.linksright{
+    margin-top: -193px;
+    margin-left:40%;
+    display: block;
+}
+
+
+/* Left Part  */
+.getintouch{
+   display: block;
+   width: 25%;
+   margin-left: 70%;
+   margin-top: -409px;
+}
+.getintouch div{
+    font-size: 25px;
+    border-bottom: 2px solid #a62320;
+    width: 40%;
+}
+.contact{
+    list-style: circle;
+}
+.contact #para{
+    color: rgb(176, 176, 176);
+}
+
+.contact li a{
+    color: #a62320;
+    text-decoration: none;
+}
+.contact li a:hover{
+    color: blue;
+}
+
+
+/* bottom part  */
+
+.bottomdown{
+    background-color: black;
+    margin-top: 7%;
+    font-size: 10px;
+    color: rgb(176, 176, 176);
+    text-align: center;
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <span class="phone">
+           Contact : +91 7314243600 
+        </span>
+        <span>|</span>
+        <span class="email">Email:<a href="mailto:info@cdgi.edu.in">info@cdgi.edu.in</a></span>
+    </div>
+    <header class="header">
+        <!--Left box for logo-->
+        <div class="left">
+           <img src="/CDGI Logo_.png" alt="CDGI">
+        </div>
+        <!--Mid Box for CDGI-->
+        <div class="mid">
+            <strong>CHAMELI DEVI GROUP OF INSTITUTIONS</strong>
+            <div> KHANDWA ROAD, INDORE, MADHYA PRADESH</div>
+        </div>
+        <!--Right box for logo-->
+        <div class="right">
+            <img src="/agrwal-logo.png" alt="Agrawal Group">
+        </div>
+    </header>
+    <nav class="nav">
+        <ul class="navbar">
+            <li><a href="RGPV.html" >Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">About Us</a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="Overview.html">Overview</a></li>
+                        <li><a href="VisionAndMission.html">Vision and Mission</a></li>
+                        <li><a href="Faculty.html">Faculty</a></li>
+                        <li><a href="Lab.html">Lab</a></li>
+                        <li><a href="StudentAchievement.html">Student Achievements</a></li>
+                    </ul>
+                </div></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="content"></section>
+</section>
+<div class="itdept">Department of<strong> Information and Technology</strong></div>
+<article class="overview">
+    <h3>Overview</h3>
+    <p>Bachelor of Information Technology is one of the most popular undergraduate degree programs amongst the students who are interested to pursue a career in the field of Information Technology and Computer Applications.</p>
+    <p>The Department of Information Technology was established during the year 2006 and has had an excellent and remarkable journey till now. This program targets to develop the skills of students in the areas like core programming languages as well as latest technological offshoots. This program provides ample opportunities for students who are interested in the field of Computer Science and would like to work in the IT sector.</p>
+    <p>During the four years of engineering degree program, the student is trained to imbibe all the required software skills and is ably guided in the field pertaining to the development of software systems along with their applications in the real world scenario. Chameli Devi Group of Institutions (CDGI) is one of the best institutes in Indore that provides all the facilities that cater to the needs of the student community.</p>
+    <p>Some of the highlighting features of the academic system existing in CDGI are:</p>
+    <ul>
+        <li>Outcome-based education with time tested teaching-learning system</li>
+        <li>Academic infrastructure along with good multidisciplinary faculty</li>
+        <li>Provide in-depth understanding of domain concepts along with related practical knowledge</li>
+        <li> Focus on application of theoretical knowledge to practical projects and applications</li>
+        <li>Departments linkage with Industries to impart practical aspects of engineering domain</li>
+        <li>Use of resource persons from industries to train students through seminars/expert-talks/ hands-on sessions and training programs</li>
+        <li> Well-equipped laboratories to create an environment of engaging students in self-learning</li>
+        <li>Well designed and structured in-house training programs for Soft-Skill, Aptitude and Technical Training to make students more employable</li>
+        <li>Coding & Technical Development Cell to focus on providing opportunities for developing technical skills of students with hands-on working knowledge</li>
+        <li>Focus on imparting rigorous training for cracking GATE entrance examination</li>
+    </ul>
+    <p><strong>Course Duration:</strong>4 years(8 Semesters)</p>
+    <p><strong>Intake:</strong>60</p>
+</article>
+<footer class="footer">
+    <div class="dlogo">
+        <img src="/CDGI Logo_.png" alt="CDGI">
+    </div>
+    <div class="written">
+       The renowned Agarwal group, having it’s headquarter at Indore, was established in 1966 under the strong vision and able leadership of Group Chairman Shri. Purushottam Agarwal.
+    </div>
+    <section class="flexlogo">
+    <div class="flogo">
+        <a href="https://www.facebook.com/cdgiindore"><img src="/flogo.jpg" alt="Facebook_CDGI"></a>
+    </div>
+    <div class="ilogo">
+        <a href="https://www.instagram.com/cdgi_indore"><img src="/ilogo.png" alt="Instagram_CDGI"></a>
+    </div>
+    <div class="glogo">
+        <a href="https://mail.google.com/a/cdgi.edu.in"><img src="/google logo.png" alt="Google_CDGI"></a>
+    </div>
+    <div class="ylogo">
+       <a href="https://www.youtube.com/channel/UCWaFgrq4Yoemo1Ij1HQCalg"><img src="/youtube logo.png" alt="Youtube_CDGI"></a>
+    </div>
+   </section>
+   <div class="aws">
+       <a href="https://cdgi.edu.in/awsacademy.php"><img src="/aws logo.png" alt="aws academy"></a>
+   </div>
+   <section class="quicklinks">
+       <div>Quick Links</div>
+       <ul class="linksleft">
+           <li><a href="#">Online Fee Payment</a></li>
+           <li><a href="#">UGC 2(f) Certificate</a></li>
+           <li><a href="#">Anti-Ragging Cell</a></li>
+           <li><a href="#">Student Testimonial</a></li>
+       </ul>
+       <ul class="linksright">
+           <li><a href="#">Women Development Center</a></li>
+           <li><a href="#">Bus Route</a></li>
+           <li><a href="#">Mandatory Disclosures</a></li>
+           <li><a href="#">Online Grievance Redressel</a></li>
+       </ul>
+   </section>
+   <section class="getintouch">
+       <div>Get In Touch</div>
+       <ul class="contact">
+           <li><span>Address:</span><span id="para">Agarwal House, 2nd Floor, 5, Yeshwant Colony, Indore</span></li>
+           <li><span>Tel:</span><span id="para">+917312538874</span></li>
+           <li><span>Fax:</span><span id="para">+917312531388</span></li>
+           <li><span>Email:</span><a href="mailto:info@cdgi.edu.in">info@cdgi.edu.in</a></li>
+       </ul>
+   </section>
+   <div class="bottomdown">Gram Umrikheda, Near Toll Naka, Khandwa Road, Indore, Madhya Pradesh Pin:- 452 020 | All Rights Reserved. (C) Chameli Devi Group of Institutions</div>
+   </footer>
+</body>
+</html>
